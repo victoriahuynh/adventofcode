@@ -1,11 +1,13 @@
 package me.victoria.adventofcode;
 
-import me.victoria.adventofcode.days.Day1;
+import me.victoria.adventofcode.days.*;
+
+import java.io.FileNotFoundException;
 
 public class Main {
 
-    public static void main(String[] args) {
-	 Day1 today = new Day1();
+    public static void main(String[] args) throws FileNotFoundException {
+	 Day2 today = new Day2();
 	    today.main(args);
     }
 }
